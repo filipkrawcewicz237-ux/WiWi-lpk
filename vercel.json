@@ -3,18 +3,7 @@
   "devCommand": "next dev",
   "installCommand": "npm install",
   "framework": "nextjs",
-  "env": [
-    {
-      "key": "GEMINI_API_KEY",
-      "description": "Google Gemini API key for AI functionality",
-      "value": "",
-      "type": "secret"
-    },
-    {
-      "key": "APP_URL",
-      "description": "The URL where this app is hosted",
-      "value": "@vercel_url",
-      "type": "system"
-    }
-  ]
+  "env": {
+    "APP_URL": "@vercel_url"
+  }
 }
