@@ -48,11 +48,11 @@ export default function LeadForm() {
     return (
       <section id="kontakt" className="py-24 bg-slate-50">
         <div className="container mx-auto px-4 md:px-6">
-          <div className="flex flex-col items-center justify-center py-12 text-center space-y-4 bg-emerald-50 rounded-2xl border border-emerald-100 p-8 max-w-2xl mx-auto">
-            <CheckCircle2 className="h-16 w-16 text-emerald-500" />
-            <h3 className="text-2xl font-bold text-slate-900">Dziękujemy za zgłoszenie!</h3>
+          <div className="flex flex-col items-center justify-center py-12 text-center space-y-4 bg-amber-50 rounded-2xl border border-amber-100 p-8 max-w-2xl mx-auto">
+            <div className="text-6xl">⚠️</div>
+            <h3 className="text-2xl font-bold text-slate-900">Ups! Coś poszło nie tak po naszej stronie.</h3>
             <p className="text-slate-600 max-w-md">
-              Skontaktujemy się z Tobą w ciągu 24 godzin, aby omówić szczegóły i zaprezentować ofertę WiWi.
+              Twoje zgłoszenie mogło nie dotrzeć. Aby mieć pewność — zadzwoń do nas teraz: +48 XXX XXX XXX lub napisz: kontakt@wiwi.pl
             </p>
           </div>
         </div>
@@ -67,9 +67,9 @@ export default function LeadForm() {
           <div className="grid md:grid-cols-5">
             <div className="md:col-span-2 bg-slate-900 p-10 text-white flex flex-col justify-between">
               <div>
-                <h3 className="text-2xl font-bold mb-4">Zacznij odzyskiwać długi</h3>
+                <h3 className="text-2xl font-bold mb-4">Aktywuj WiWi dla swojej firmy</h3>
                 <p className="text-slate-400 mb-8">
-                  Zostaw kontakt, a nasz ekspert pokaże Ci, jak WiWi może pomóc Twojej firmie.
+                  Uzupełnij dane poniżej, aby aktywować dostęp. Nasz konsultant skontaktuje się z Tobą w ciągu 24 godzin i ustali warunki startu.
                 </p>
                 <ul className="space-y-4">
                   <li className="flex items-center gap-3">
@@ -142,7 +142,7 @@ export default function LeadForm() {
                       Wysyłanie...
                     </>
                   ) : (
-                    "Porozmawiajmy o ofercie"
+                    "✅ Aktywuj dostęp do WiWi"
                   )}
                 </Button>
                 <p className="text-xs text-slate-500 text-center mt-4">

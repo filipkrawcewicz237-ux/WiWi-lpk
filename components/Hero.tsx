@@ -21,16 +21,16 @@ export default function Hero() {
                 Nowość dla MŚP
               </div>
               <h1 className="text-4xl font-extrabold tracking-tight text-slate-900 sm:text-5xl xl:text-6xl/none">
-                Odzyskuj długi szybciej i prościej z <span className="text-indigo-500">WiWi</span>
+                Odzyskaj nawet 80% zaległych faktur — bez windykatorów, bez telefonów, bez stresu
               </h1>
               <p className="max-w-[600px] text-lg text-slate-600 md:text-xl/relaxed">
-                Automatyzuj proces windykacji, korzystaj ze sprawdzonych scenariuszy i wsparcia AI. Skup się na rozwoju firmy, a my zajmiemy się niezapłaconymi fakturami.
+                Twój zespół traci średnio 6 godzin tygodniowo na ściganie dłużników. WiWi robi to za nich — automatycznie, zgodnie z prawem i bez niszczenia relacji z klientami.
               </p>
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="#kontakt" className="inline-flex items-center justify-center bg-indigo-500 hover:bg-indigo-600 text-white rounded-full px-8 h-14 text-base font-medium transition-colors">
-                Porozmawiajmy o ofercie <ArrowRight className="ml-2 h-5 w-5" />
+                🔒 Zacznij odzyskiwać pieniądze — wypełnij formularz <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
               <Link href="#jak-to-dziala" className="inline-flex items-center justify-center rounded-full px-8 h-14 text-base font-medium border border-slate-300 text-slate-700 hover:bg-slate-100 transition-colors">
                 Jak to działa?
