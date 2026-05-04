@@ -8,6 +8,7 @@ export default function Pricing() {
       title: "Model za Dłużnika",
       description: "Opłata zależna od liczby aktywnych dłużników w systemie.",
       icon: <Users className="h-6 w-6 text-indigo-600" />,
+      price: "Od 500 zł/miesięcznie",
       features: [
         "Koszty integracji (jednorazowo)",
         "Miesięczny abonament SaaS",
@@ -20,6 +21,7 @@ export default function Pricing() {
       title: "Model za Komunikat",
       description: "Opłata zależna od liczby wysłanych wiadomości (SMS/Email/Voice).",
       icon: <CreditCard className="h-6 w-6 text-indigo-600" />,
+      price: "Od 0.20 zł za komunikat",
       features: [
         "Koszty integracji (jednorazowo)",
         "Miesięczny abonament SaaS",
@@ -48,7 +50,8 @@ export default function Pricing() {
                 {plan.icon}
               </div>
               <h3 className="mb-2 text-2xl font-bold text-slate-900">{plan.title}</h3>
-              <p className="text-slate-600 mb-8">{plan.description}</p>
+              <p className="text-slate-600 mb-4">{plan.description}</p>
+              <div className="text-3xl font-bold text-slate-900 mb-8">{plan.price}</div>
               <ul className="space-y-4 mb-8 flex-1">
                 {plan.features.map((feature, i) => (
                   <li key={i} className="flex items-center gap-3">
@@ -58,7 +61,7 @@ export default function Pricing() {
                 ))}
               </ul>
               <Link href="#kontakt" className="inline-flex items-center justify-center w-full bg-slate-900 hover:bg-slate-800 text-white rounded-full h-12 font-medium transition-colors">
-                Porozmawiajmy o ofercie
+                Wybieram plan
               </Link>
             </div>
           ))}

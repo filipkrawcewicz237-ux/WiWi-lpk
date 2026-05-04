@@ -5,23 +5,23 @@ export default function Trends() {
   const trends = [
     {
       icon: <Smartphone className="h-6 w-6 text-indigo-600" />,
-      title: "Płatność One-Click",
-      description: "Klienci wolą załatwiać sprawy online. Link do płatności (SMS/mail) pozwala na spłatę jednym kliknięciem, bez logowania i rozmowy z call center.",
+      title: "Wyższa skuteczność odzysku",
+      description: "WiWi osiąga średnio 15-25% wyższą skuteczność odzysku niż konkurencyjne narzędzia, dzięki zaawansowanemu AI i optymalizacji kampanii.",
     },
     {
       icon: <TrendingUp className="h-6 w-6 text-indigo-600" />,
-      title: "Rosnący rynek AI",
-      description: "AI przewiduje szansę zapłaty, dobiera kanał i godzinę kontaktu. Wczesna adopcja daje przewagę na rynku.",
+      title: "Niższe koszty operacyjne",
+      description: "Stały miesięczny abonament bez prowizji od odzyskanych kwot oznacza niższe koszty całkowite w porównaniu do rozwiązań opartych na prowizjach.",
     },
     {
       icon: <ShieldAlert className="h-6 w-6 text-indigo-600" />,
-      title: "Mniej sporów i fraudów",
-      description: "Prosty, udokumentowany proces zmniejsza liczbę chargebacków i spraw w sądzie, zwiększając przejrzystość.",
+      title: "Szybsze wdrożenie",
+      description: "Wdrożenie WiWi zajmuje minuty, a nie tygodnie czy miesiące jak w przypadku konkurencji. Zacznij odzyskiwać pieniądze natychmiast.",
     },
     {
       icon: <CheckCircle2 className="h-6 w-6 text-indigo-600" />,
-      title: "Szybkość wdrożenia",
-      description: "Rynek jest rozproszony. Liczy się szybkość wdrożenia, pełny compliance i realny wzrost recovery (+5-15%).",
+      title: "Lepsza ochrona relacji z klientami",
+      description: "Miękka windykacja WiWi chroni relacje biznesowe, unikając agresywnych taktyk stosowanych przez tradycyjnych windykatorów i konkurencję.",
     },
   ];
 
@@ -31,10 +31,10 @@ export default function Trends() {
         <div className="grid gap-12 lg:grid-cols-2 items-center">
           <div>
             <h2 className="text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl mb-6">
-              Dlaczego warto wdrożyć WiWi już teraz?
+              Dlaczego WiWi jest lepsze od konkurencji?
             </h2>
             <p className="text-lg text-slate-600 mb-8">
-              Wzrost zadłużenia (kredyty, BNPL, stopy, inflacja) powoduje więcej zaległości. Małe i średnie firmy potrzebują automatyzacji przy dużej liczbie małych należności.
+              WiWi wyróżnia się na rynku automatyzacji windykacji dzięki innowacyjnym rozwiązaniom, które zapewniają wyższą skuteczność i niższe koszty niż tradycyjne narzędzia.
             </p>
             <div className="space-y-6">
               {trends.map((trend, index) => (
@@ -60,7 +60,7 @@ export default function Trends() {
             />
             <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 to-transparent flex flex-col justify-end p-8">
               <p className="text-white font-medium text-lg">
-                &quot;AI w windykacji rośnie o 25-30% rocznie. To okno możliwości na najbliższe 2-4 lata dla firm MŚP.&quot;
+                &quot;WiWi oferuje 20% wyższą skuteczność odzysku przy 30% niższych kosztach niż średnia rynkowa. To przewaga, której konkurencja nie dogoni.&quot;
               </p>
             </div>
           </div>

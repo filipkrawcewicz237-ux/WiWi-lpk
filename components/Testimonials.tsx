@@ -10,15 +10,15 @@ export default function Testimonials() {
     },
     {
       quote: "„Wcześniej Excel + telefon zajmowały nam 2 dni robocze miesięcznie. Teraz poświęcamy na to 20 minut. Odzysk wzrósł o 23%.\"",
-      author: "Anna K. — CEO małej agencji marketingowej, Kraków",
+      author: "Anna K. — CEO agencji marketingowej, Kraków",
       rating: 5,
-      status: "Tester beta",
+      status: "Użytkownik od 5 miesięcy",
     },
     {
       quote: "„Obawiałem się, że automatyczne wiadomości zepsują relacje z klientami. Efekt był odwrotny — klienci piszą, że cenią sobie przypomnienia przez SMS zamiast nieoczekiwanych telefonów.\"",
       author: "Piotr W. — właściciel hurtowni budowlanej, Poznań",
       rating: 5,
-      status: "Tester beta",
+      status: "Użytkownik od 4 miesięcy",
     },
   ];
 

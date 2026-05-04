@@ -6,13 +6,13 @@ export default function Alternatives() {
       title: "Tradycyjne agencje windykacyjne",
       icon: <Coins className="h-8 w-8 text-rose-500" />,
       flaws: [
-        "Pobierają wysokie prowizje (nawet 20-30% długu)",
-        "Psują relacje z Twoimi klientami agresywnym podejściem",
+        "Pobierają wysokie prowizje <b>(nawet 20-30% długu)</b>",
+        "Psują relacje z Twoimi klientami <b>agresywnym podejściem</b>",
         "Brak transparentności działań i ukryte koszty",
       ],
     },
     {
-      title: "Ręczne przypomnienia (Excel + Telefon)",
+      title: "Ręczna windykacja",
       icon: <Clock className="h-8 w-8 text-rose-500" />,
       flaws: [
         "Pochłaniają mnóstwo Twojego cennego czasu",
@@ -26,7 +26,7 @@ export default function Alternatives() {
       flaws: [
         "Wymagają wielomiesięcznego wdrożenia i szkoleń",
         "Skupiają się na księgowości, a nie na psychologii spłaty",
-        "Zbyt skomplikowane i drogie dla sektora MŚP",
+        "Zbyt skomplikowane i drogie dla dla małych i średnich firm",
       ],
     },
   ];

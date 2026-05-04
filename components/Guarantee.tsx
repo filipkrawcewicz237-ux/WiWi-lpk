@@ -16,7 +16,7 @@ export default function Guarantee() {
             <div className="flex items-start gap-4">
               <CheckCircle2 className="h-6 w-6 text-emerald-500 mt-0.5 flex-shrink-0" />
               <div>
-                <p className="text-slate-700">Pierwsze 30 dni bez opłat — testujesz bez ryzyka</p>
+                <p className="text-slate-700">Zawsze masz dostęp do swoich danych</p>
               </div>
             </div>
             <div className="flex items-start gap-4">

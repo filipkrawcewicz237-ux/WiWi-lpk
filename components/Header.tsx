@@ -21,7 +21,7 @@ export default function Header() {
         </nav>
         <div className="flex items-center gap-4">
           <Link href="#kontakt" className="inline-flex items-center justify-center bg-indigo-500 hover:bg-indigo-600 text-white rounded-full px-6 h-10 text-sm font-medium transition-colors">
-            Porozmawiajmy o ofercie
+            Kup Usługę
           </Link>
         </div>
       </div>

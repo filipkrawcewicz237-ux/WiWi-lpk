@@ -19,12 +19,12 @@ export default function Features() {
     },
     {
       icon: <CreditCard className="h-10 w-10 text-indigo-500" />,
-      title: "Płatności One-Click",
+      title: "Szybka płatność kartą",
       description: "Prosty proces spłaty poprzez link do szybkiej płatności bez konieczności logowania i rozmowy z call center.",
     },
     {
       icon: <Bot className="h-10 w-10 text-indigo-500" />,
-      title: "AI Learns as you work",
+      title: "System uczy się na bieżąco",
       description: "Sztuczna inteligencja modyfikuje scenariusze na bazie profilu Twoich klientów i efektów działań, przewidując szansę zapłaty.",
     },
     {

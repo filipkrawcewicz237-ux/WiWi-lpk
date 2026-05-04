@@ -24,10 +24,6 @@ export default function FAQ() {
       answer: "Tak. WiWi działa zgodnie z polskim prawem i RODO. Wysyłamy wyłącznie wiadomości w Twoim imieniu do Twoich kontrahentów, z którymi już masz umowę handlową.",
     },
     {
-      question: "Ile firm już korzysta z WiWi?",
-      answer: "WiWi jest aktualnie w fazie testów z wyselekcjonowaną grupą firm MŚP. Dołącz teraz i skorzystaj z warunków dla pierwszych użytkowników.",
-    },
-    {
       question: "Ile kosztuje, jeśli nic nie odzyskam?",
       answer: "Płacisz stały abonament — niezależnie od wyników. Nie ma prowizji od odzyskanej kwoty, więc nawet w gorszym miesiącu nie płacisz ekstra. Ryzyko jest po naszej stronie.",
     },

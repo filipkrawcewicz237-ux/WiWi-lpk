@@ -18,39 +18,30 @@ export default function Hero() {
             <div className="space-y-4">
               <div className="inline-flex items-center rounded-full border border-indigo-200 bg-indigo-50 px-3 py-1 text-sm font-medium text-indigo-600">
                 <span className="flex h-2 w-2 rounded-full bg-indigo-500 mr-2"></span>
-                Nowość dla MŚP
+                Odzyskuj pieniądze, które już zarobiłeś
               </div>
               <h1 className="text-4xl font-extrabold tracking-tight text-slate-900 sm:text-5xl xl:text-6xl/none">
-                Odzyskaj nawet 80% zaległych faktur — bez windykatorów, bez telefonów, bez stresu
+                Odzyskaj nawet 80% zaległych faktur
               </h1>
               <p className="max-w-[600px] text-lg text-slate-600 md:text-xl/relaxed">
                 Twój zespół traci średnio 6 godzin tygodniowo na ściganie dłużników. WiWi robi to za nich — automatycznie, zgodnie z prawem i bez niszczenia relacji z klientami.
               </p>
+              <ul className="mt-6 max-w-[600px] space-y-3 text-slate-600 md:text-xl/relaxed list-disc list-inside">
+                <li>bez windykatorów</li>
+                <li>bez telefonów</li>
+                <li>bez stresu</li>
+              </ul>
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="#kontakt" className="inline-flex items-center justify-center bg-indigo-500 hover:bg-indigo-600 text-white rounded-full px-8 h-14 text-base font-medium transition-colors">
-                🔒 Zacznij odzyskiwać pieniądze — wypełnij formularz <ArrowRight className="ml-2 h-5 w-5" />
+                🔒 Zacznij odzyskiwać pieniądze <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
               <Link href="#jak-to-dziala" className="inline-flex items-center justify-center rounded-full px-8 h-14 text-base font-medium border border-slate-300 text-slate-700 hover:bg-slate-100 transition-colors">
                 Jak to działa?
               </Link>
             </div>
 
-            <div className="flex flex-col gap-2 text-sm text-slate-600">
-              <div className="flex items-center gap-2">
-                <CheckCircle2 className="h-5 w-5 text-emerald-500" />
-                <span>Szybka reakcja na zaległości (15-60 dni)</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <CheckCircle2 className="h-5 w-5 text-emerald-500" />
-                <span>Płatności One-Click bez rozmowy z call center</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <CheckCircle2 className="h-5 w-5 text-emerald-500" />
-                <span>Brak opłat za wdrożenie w okresie testowym</span>
-              </div>
-            </div>
           </motion.div>
 
           <motion.div
@@ -74,12 +65,12 @@ export default function Hero() {
                 <div className="p-6">
                   <div className="mb-6 flex items-center justify-between">
                     <div>
-                      <h3 className="text-lg font-semibold text-slate-900">Skuteczność kampanii</h3>
+                      <h3 className="text-lg font-semibold text-slate-900">Skuteczność odzysku faktur</h3>
                       <p className="text-sm text-slate-500">Ostatnie 30 dni</p>
                     </div>
                     <div className="text-right">
-                      <div className="text-2xl font-bold text-emerald-600">+15%</div>
-                      <p className="text-xs text-slate-500">Wzrost odzysku</p>
+                      <div className="text-2xl font-bold text-emerald-600">10</div>
+                      <p className="text-xs text-slate-500">Odzyskano faktur po terminie</p>
                     </div>
                   </div>
                   <div className="space-y-4">

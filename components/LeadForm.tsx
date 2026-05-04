@@ -48,11 +48,11 @@ export default function LeadForm() {
     return (
       <section id="kontakt" className="py-24 bg-slate-50">
         <div className="container mx-auto px-4 md:px-6">
-          <div className="flex flex-col items-center justify-center py-12 text-center space-y-4 bg-amber-50 rounded-2xl border border-amber-100 p-8 max-w-2xl mx-auto">
-            <div className="text-6xl">⚠️</div>
-            <h3 className="text-2xl font-bold text-slate-900">Ups! Coś poszło nie tak po naszej stronie.</h3>
+          <div className="flex flex-col items-center justify-center py-12 text-center space-y-4 bg-emerald-50 rounded-2xl border border-emerald-100 p-8 max-w-2xl mx-auto">
+            <div className="text-6xl">✅</div>
+            <h3 className="text-2xl font-bold text-slate-900">Dziękujemy za zamówienie WiWi!</h3>
             <p className="text-slate-600 max-w-md">
-              Twoje zgłoszenie mogło nie dotrzeć. Aby mieć pewność — zadzwoń do nas teraz: +48 XXX XXX XXX lub napisz: kontakt@wiwi.pl
+              Twoje zgłoszenie zostało przyjęte. Nasz zespół skontaktuje się z Tobą w ciągu 24 godzin, aby potwierdzić szczegóły aktywacji.
             </p>
           </div>
         </div>
@@ -67,22 +67,22 @@ export default function LeadForm() {
           <div className="grid md:grid-cols-5">
             <div className="md:col-span-2 bg-slate-900 p-10 text-white flex flex-col justify-between">
               <div>
-                <h3 className="text-2xl font-bold mb-4">Aktywuj WiWi dla swojej firmy</h3>
+                <h3 className="text-2xl font-bold mb-4">Kup dostęp do WiWi dla swojej firmy</h3>
                 <p className="text-slate-400 mb-8">
-                  Uzupełnij dane poniżej, aby aktywować dostęp. Nasz konsultant skontaktuje się z Tobą w ciągu 24 godzin i ustali warunki startu.
+                  Wypełnij formularz, a przygotujemy dla Ciebie szybką aktywację systemu. Zacznij odzyskiwać należności szybciej dzięki WiWi.
                 </p>
                 <ul className="space-y-4">
                   <li className="flex items-center gap-3">
                     <CheckCircle2 className="h-5 w-5 text-indigo-500" />
-                    <span className="text-sm text-slate-300">Darmowa wycena</span>
+                    <span className="text-sm text-slate-300">Szybki start w 24 godziny</span>
                   </li>
                   <li className="flex items-center gap-3">
                     <CheckCircle2 className="h-5 w-5 text-indigo-500" />
-                    <span className="text-sm text-slate-300">Prezentacja demo</span>
+                    <span className="text-sm text-slate-300">Gotowe scenariusze odzyskiwania</span>
                   </li>
                   <li className="flex items-center gap-3">
                     <CheckCircle2 className="h-5 w-5 text-indigo-500" />
-                    <span className="text-sm text-slate-300">Analiza potrzeb</span>
+                    <span className="text-sm text-slate-300">Pełna obsługa wdrożenia</span>
                   </li>
                 </ul>
               </div>
@@ -142,11 +142,11 @@ export default function LeadForm() {
                       Wysyłanie...
                     </>
                   ) : (
-                    "✅ Aktywuj dostęp do WiWi"
+                    "✅ Kupuję WiWi"
                   )}
                 </Button>
                 <p className="text-xs text-slate-500 text-center mt-4">
-                  Wysyłając formularz, wyrażasz zgodę na kontakt w celu przedstawienia oferty.
+                  Wysyłając formularz, zamawiasz dostęp do WiWi i zgadzasz się na kontakt w celu aktywacji.
                 </p>
               </form>
             </div>
